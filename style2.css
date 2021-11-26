@@ -225,21 +225,22 @@ section > article > h1 {
 
 /* Regra para o link de .cartao-carro quando o mouse sobrevoa */
 .cartao-carro a:hover div {
-  filter: brightness(1.2);
+  filter: brightness(1.1);
   box-shadow: 3px 3px 6px rgba(255, 255, 255, 0.15);
 }
 
 /* Regra para a div interna de .cartao-carro */
 .cartao-carro div {
-  height: 360px;
+  height: 358px;
   border-radius: 16px;
 }
 
 /* Regra para imagens dentro de .cartao-carro */
 .cartao-carro img {
   width: 100%;
-  border-top-left-radius: 16px;
-  border-top-right-radius: 16px;
+  height: 100%;
+  border-radius: 16px 16px 16px 16px;
+  
 }
 
 .cartao-carro h1 {
