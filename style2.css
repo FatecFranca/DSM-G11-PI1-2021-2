@@ -303,23 +303,24 @@ article {
   font-family: var(--fonte-texto);
 }
 .pagina-interna figure {
-  background-color: var(--cor-fundo);
-  padding: 20px;
+  background-color: var(--cor-prim);
+  padding: 10px;
   border-radius: 16px;
-  margin: 30px 0;
+  margin: px 0;
   text-align: center;
 }
 
 .pagina-interna figure img {
   width: 100%;
   max-width: 800px;
+  border-radius: 16px;
 }
 
 .pagina-interna figure figcaption {
   font-family: var(--fonte-titulo);
   font-style: italic;
   text-align: center;
-  color: var(--cor-texto);
+  color: var(--cor-fundo);
   text-shadow: 1px 1px 2px var(--cor-fundo-clara);
   padding: 8px 8px 0 8px;
 }
@@ -330,7 +331,10 @@ article {
   line-height: 1.2;
   width: 100%;
   font-size: 1.2rem;
-  text-align: var(--cor-texto);
+  text-decoration: var(--cor-fundo);
+  
+  
+  
 
 }
 .pagina-interna section h2 {
@@ -347,9 +351,9 @@ article {
 .pagina-interna section h1 {
   font-family: var(--fonte-titulo);
   font-size: 2.5rem;
-  color: var(--cor-secun-clara);
+  color: var(--cor-fundo);
   font-weight:bold ;
-  text-align: left;
+  text-align: center;
 
 }
 
